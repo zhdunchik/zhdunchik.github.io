@@ -16,12 +16,7 @@
       crossorigin="anonymous"
     />
     <!-- подключаем иконочный шрифт -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
+    <script src="https://kit.fontawesome.com/4238797e34.js" crossorigin="anonymous"></script>
 
     <title>Стартовая страница // Webmaster</title>
   </head>
@@ -106,7 +101,36 @@
             <a class="btn btn-outline-primary stretched-link btn-sm btn-block disabled">Идёт разработка</a>
           </div>
         </div>
+      </div> 
+      <!-- end row -->
+      <!-- start modal windows -->
+      <!-- Button trigger modal -->
+<div class="row">
+  <button type="button" class="btn btn-outline-primary offset-3 col-6 " data-toggle="modal" data-target="#exampleModalCenter"> <span class="h3">Читай меня</span> </button>
+  
+</button></div>
+      
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Смотрите видео </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
+      <div class="embed-responsive embed-responsive-16by9 " >
+        <iframe  data-backdrop="keyboard boolean	true" class="embed-responsive-item" src="https://www.youtube.com/embed/EJbRswu4KgM" autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end modal windows -->
 <!-- start carousel -------------------------------------------------------------------------------------------------------------------------------- -->
 <div id="carouselExampleIndicators" class="carousel slide mt-5 " data-ride="carousel">
   <ol class="carousel-indicators text-primary ">
@@ -130,12 +154,12 @@
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="fas fa-hand-point-left text-primary fa-4x" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
+    <span class="fas fa-balance-scale-left text-primary fa-4x" aria-hidden="true"></span>
+    <span class="sr-only">Предыдущая</span>
   </a>
   <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="fas fa-hand-point-right text-primary fa-4x" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
+    <span class="fas fa-balance-scale-right text-primary fa-4x" aria-hidden="true"></span>
+    <span class="sr-only">Следующая</span>
   </a>
 </div>
 <!-- end carousel ---------------------------------------------------------------------------------------------------------------------------------- -->
