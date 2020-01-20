@@ -1,4 +1,8 @@
 body{
     background-image: url(../img/1.png);}
-h1{color: aliceblue;}
-p{color: aliceblue;}
+h1{color: aliceblue;
+   color: black;
+   -webkit-text-stroke: 0.5px rgba(0,0,0,0.5)}
+p{color: aliceblue;
+  color: black;
+  -webkit-text-stroke: 0.5px rgba(0,0,0,0.5)}
