@@ -1,0 +1,24 @@
+*,
+ body{padding: 0;
+margin: 0;
+}
+body{
+    background-image: url(../img/1.png)}
+.wraper {    background-image: url(../img/bird.png);
+  background-repeat: no-repeat;
+background-position: 1% 1%}
+h1{color: rgb(0, 0, 0);
+  -webkit-text-stroke: 0.9px rgba(25, 0, 255, 0.5);
+font-family: 'Courier New', Courier, monospace;
+font-variant-caps: petite-caps;}
+p{color: rgb(0, 0, 0);
+  -webkit-text-stroke: 0.9px rgba(25, 0, 255, 0.5);
+ font-size: 14pt;
+ font-family: 'Pacifico', cursive;;}
+
+ .ithem1, .ithem3 {background-color: rgb(57, 57, 57);}
+ .ithem2 {background-image: url("../img/2.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
