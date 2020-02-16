@@ -1,0 +1,48 @@
+*,
+ body{padding: 0;
+margin: 0;
+}
+body{
+    background-image: url(../img/1.png)}
+.wraper {    background-image: url(../img/bird.png);
+  background-repeat: no-repeat;
+background-position: 1% 1%}
+h1{color: rgb(0, 0, 0);
+  -webkit-text-stroke: 0.9px rgba(25, 0, 255, 0.5);
+font-family: 'Courier New', Courier, monospace;
+font-variant-caps: petite-caps;}
+p{color: rgb(0, 0, 0);
+  -webkit-text-stroke: 0.9px rgba(25, 0, 255, 0.5);
+ font-size: 14pt;
+ font-family: 'Pacifico', cursive;;}
+
+ .ithem1, .ithem3 {background-color: rgb(57, 57, 57);}
+ .ithem2 {background-image: url("../img/2.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+.menew {position: fixed;
+top: 0;
+left: 0;}
+.reklama{height: 400px ;
+position: relative;
+background-color: rgb(34, 34, 34);
+/* overflow: hidden;} */}
+.mebutton {width: calc(87*3px);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%) ;
+z-index: 10}
+
+
+.mebutton1 {position: absolute;
+top: -14px;
+left: 45%;}
+.mebird{position: absolute;
+height: 212px;
+  top: 40%;
+left: 40%;
+z-index: 9;}
+
