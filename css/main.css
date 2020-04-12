@@ -24,6 +24,10 @@ body{
     .mi_block2 { color: rgb(76, 63, 251)}
     .mi_block3 { color: rgb(168, 2, 2)}
     .mi_block4 { color: rgb(2, 168, 132)}
+    .mi_block5 {color: rgb(41, 43, 35);}
+    .mi_block6 {color: rgb(72, 78, 53);}
+    .telegalang {color: white;
+                background-color: rgb(0, 162, 255);}
     .new {position: absolute;
     top: 0;
     left: 0;
