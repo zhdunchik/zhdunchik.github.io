@@ -1,0 +1,78 @@
+.first {
+  padding: 15px;
+}
+
+.phone {
+  font-family: "Verdana";
+  font-size: 18px;
+  align: right;
+}
+
+.phone a {
+  color: #000;
+}
+
+.call a {
+  border-radius: 25px;
+}
+
+.second {
+  font-family: "Times New Roman";
+  color: #fff;
+  background-color: #3a5896;
+  position: relative;
+  z-index: 150;
+}
+
+.second h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 25px;
+}
+
+.second p {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  margin-bottom: 25px;
+}
+
+.figura {
+  position: absolute;
+  /* outline: 1px solid red; */
+  bottom: -30px;
+  left: calc(50% - 31px);
+  width: 61px;
+  height: 31px;
+  z-index: 300;
+  /* border-style: solid;
+  border-width: 31px 30.5px 0 30.5px;
+  border-color: #3a5996 transparent transparent transparent; */
+  background-image: url(../img/figura.png);
+}
+
+.banner {
+  outline: 1px solid red;
+  height: 430px;
+  /* после карусели убрать высоту */
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 100;
+}
+
+.banner .item1 {
+  position: absolute;
+  bottom: 0px;
+  left: 4.9%;
+  z-index: 170;
+}
+
+.banner .item2 {
+  position: absolute;
+  bottom: -265px;
+  right: -5.68%;
+}
