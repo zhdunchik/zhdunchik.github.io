@@ -25,8 +25,10 @@ body{
     .mi_block5 {color: rgb(41, 43, 35);}
     .mi_block6 {color: rgb(72, 78, 53);}
     .mi_block7 {color: #D2B48C;}
-    .mi_block8 {color: rgb(	175, 238, 238);
-    }
+    .mi_block8 {color: rgb(	175, 238, 238);}
+    .mi_block9 {color: rgb(32, 178, 170);}
+    .telegram {color: rgb(0, 136, 204)}
+    .fire {border-image: url(../img/12.jpg);}
     .telegalang {color: white;
                 background-color: rgb(0, 162, 255);}
     .new {position: absolute;
